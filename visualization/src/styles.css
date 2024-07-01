@@ -1,0 +1,44 @@
+html, 
+body, 
+#root,
+.flow {
+ height: 95%;
+ width: 100%
+} 
+.App {
+ height: 100%;
+ width: 100%
+} 
+.App {
+ font-family: sans-serif;
+ text-align: center; 
+} 
+.react-flow__handle {
+ opacity: 1;
+ visibility: hidden
+}
+.container {font-size: 16pt; font-weight: bolder;}
+.activity_Create_Purchase_Requisition {background-image: linear-gradient(#66A61E 0.0%, #66A61E 50.0%, #1B9E77 50.0%, #1B9E77 100.0%);} 
+.activity_Verify_Material {background-image: linear-gradient(#1B9E77 0.0%, #1B9E77 100.0%);} 
+.activity_Goods_Issue {background-image: linear-gradient(#1B9E77 0.0%, #1B9E77 100.0%);} 
+.activity_Plan_Goods_Issue {background-image: linear-gradient(#1B9E77 0.0%, #1B9E77 100.0%);} 
+.activity_Issue_Goods_Receipt {background-image: linear-gradient(#D95F02 0.0%, #D95F02 33.333333333333336%, #E7298A 33.333333333333336%, #E7298A 66.66666666666667%, #1B9E77 66.66666666666667%, #1B9E77 100.0%);} 
+.activity_Clear_Invoice {background-image: linear-gradient(#7570B3 0.0%, #7570B3 33.333333333333336%, #E7298A 33.333333333333336%, #E7298A 66.66666666666667%, #D95F02 66.66666666666667%, #D95F02 100.0%);} 
+.activity_Create_Purchase_Order {background-image: linear-gradient(#E7298A 0.0%, #E7298A 33.333333333333336%, #66A61E 33.333333333333336%, #66A61E 66.66666666666667%, #1B9E77 66.66666666666667%, #1B9E77 100.0%);} 
+.activity_Receive_Goods {background-image: linear-gradient(#D95F02 0.0%, #D95F02 33.333333333333336%, #E7298A 33.333333333333336%, #E7298A 66.66666666666667%, #1B9E77 66.66666666666667%, #1B9E77 100.0%);} 
+.activity_Receive_Invoice {background-image: linear-gradient(#7570B3 0.0%, #7570B3 50.0%, #E7298A 50.0%, #E7298A 100.0%);} 
+.activity_START_PURCHORD {background-image: linear-gradient(#E7298A 0.0%, #E7298A 100.0%);} 
+.activity_START_INVOICE {background-image: linear-gradient(#7570B3 0.0%, #7570B3 100.0%);} 
+.activity_START_PURCHREQ {background-image: linear-gradient(#66A61E 0.0%, #66A61E 100.0%);} 
+.activity_START_MATERIAL {background-image: linear-gradient(#1B9E77 0.0%, #1B9E77 100.0%);} 
+.activity_START_GDSRCPT {background-image: linear-gradient(#D95F02 0.0%, #D95F02 100.0%);} 
+.activity_END_MATERIAL {background-image: linear-gradient(#1B9E77 0.0%, #1B9E77 100.0%);} 
+.activity_END_PURCHORD {background-image: linear-gradient(#E7298A 0.0%, #E7298A 100.0%);} 
+.activity_END_INVOICE {background-image: linear-gradient(#7570B3 0.0%, #7570B3 100.0%);} 
+.activity_END_GDSRCPT {background-image: linear-gradient(#D95F02 0.0%, #D95F02 100.0%);} 
+.activity_END_PURCHREQ {background-image: linear-gradient(#66A61E 0.0%, #66A61E 100.0%);} 
+.MATERIAL {background: #1B9E77}
+.GDSRCPT {background: #D95F02}
+.INVOICE {background: #7570B3}
+.PURCHORD {background: #E7298A}
+.PURCHREQ {background: #66A61E}

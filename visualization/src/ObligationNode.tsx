@@ -1,0 +1,51 @@
+import React from "react";
+
+import { Handle, Position, NodeToolbar } from "reactflow";
+
+export default ({ data, styles }: any) => {
+  return (
+    <>
+      <NodeToolbar>
+        <div style={{background:'rgba(255,255,255,0.6)', color: '#000'}}>
+          ({data.objectMin}, {data.objectMax})
+        </div>
+      </NodeToolbar>
+
+      <div className={data.objectType}
+      style={{
+          width: "20px",
+          height: "20px",
+          borderRadius: data.radius,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          ...styles
+        }}
+      >
+        <Handle
+          type="target"
+          position={Position.Left}
+          id="dependency_in"
+        />
+        <Handle
+          type="target"
+          position={Position.Top}
+          id="binding_in"
+        />
+        <div style={{color:'#000000'}}>
+          {data.obligationID}
+        </div>
+        <Handle
+          type="source"
+          position={Position.Right}
+          id="dependency_out"
+        />
+        <Handle
+          type="source"
+          position={Position.Bottom}
+          id="binding_out"
+        />
+      </div>
+    </>
+  );
+};
