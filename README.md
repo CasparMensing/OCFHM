@@ -1,4 +1,4 @@
-# Object-Centric Causal Net Miner
+# Object-Centric Flexible Heuristic Miner
 
 This repository contains the code for the object-centric causal net miner.
 The miner can discover and visualize object-centric causal nets from object-centric event logs in the [OCEL format](https://www.ocel-standard.org/).
